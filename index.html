@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Alpha to Solid - Calculator</title>
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="icon.png" />
+	</head>
+	<body>
+		<h1>Alpha to Solid</h1>
+		<h2>Simple tool to convert ARGB into RGB</h2>
+		<div id="container">
+
+			<label for="color">Color with alpha: <em>(#AARRGGBB)</em></label>
+			<input type="text" id="color" placeholder="Color with Alpha" value="" class="autoselect" />
+			
+			<label for="color">Background color: <em>(#RRGGBB)</em></label>
+			<input type="text" id="bgColor" placeholder="Background Color" value="#ffffff" class="autoselect" />
+			
+			<input type="button" id="submit" value="Calculate" />
+
+			<label for="result">Result color:</label>
+			<input type="text" id="result" placeholder="Solid Color" readonly="readonly" class="autoselect" />
+		</div>
+		<script src="script.js"></script>
+    </body>
+</html>

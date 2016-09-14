@@ -1,0 +1,59 @@
+body {
+    background: #ecf0f1;
+    padding-top: 20px;
+    color: #000;
+
+    font: normal 14px/1.6em Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+input {
+	display: block;
+	width: 100%;
+	height: 2.0em;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+label {
+	font-weight: 700;
+}
+
+em {
+	color: #999;
+	font-style: normal;
+	font-size: 0.8em;
+}
+
+#container {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#submit {
+	background: #333;
+	color: #fff;
+}
+
+#result {
+	background: #eee;
+}
+
+.error {
+	border: 1px solid #f00;
+}
